@@ -1,0 +1,40 @@
+.card p{
+	margin-top: -10px;
+	margin-bottom: 1px;
+}
+
+.row .card:hover{
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	transform: scale(1.02);
+}
+
+a {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+footer{
+    /* height:200px; */
+    margin-top: 20px; /* Menambahkan margin atas sebesar 20px */
+    background-color: rgb(44, 44, 44); /* Mengatur warna latar belakang footer menjadi hitam */
+}
+
+.footer{
+    color: aliceblue; /* Mengatur warna teks footer menjadi putih kebiruan */
+    text-align: center; /* Mengatur teks dalam footer agar rata tengah */
+    padding: 20px; /* Menambahkan padding sebesar 20px di semua sisi */
+    padding-left: 133px; /* Menambahkan padding kiri negatif untuk menyesuaikan layout */
+    display: flex; /* Mengatur konten menggunakan flexbox */
+    flex-wrap: nowrap; /* Membuat konten tidak membungkus ke baris baru */
+    margin-top: 8px; /* Menambahkan margin atas sebesar 100px */
+}
+
+.logofot{
+    height: 150px; /* Mengatur tinggi logo footer */
+    width: auto; /* Mengatur lebar logo footer secara otomatis sesuai aspek rasio */
+}
+
+footer a:hover{
+    color: aqua; /* Mengubah warna teks link dalam footer menjadi aqua saat hover */
+}
